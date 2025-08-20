@@ -14,17 +14,49 @@ Data - 25/06/2024
 
 Tema  - Conectando Treinadores e Clientes: Desenvolvimento de Aplicativo para Facilitar o Acompanhamento Personalizado
 
-Integrantes ;
+Aplicativo de Gestão para Personal Trainers
+Desenvolvemos um aplicativo abrangente para personal trainers, com o objetivo de otimizar a gestão de clientes e fortalecer a relação entre treinadores e alunos. Nossa plataforma oferece um conjunto de ferramentas essenciais para a rotina do profissional:
 
-          Pedro Henrrique Ipiranga araujo ;
+Cadastro e Gestão de Alunos: Gerencie a ficha de cada cliente de forma organizada.
 
-          Luiz Carlos Moraes Dos Santos;
-          
-          Felipe De Resende Ferreira;
-          
-          Luiz Kauan Rosa de Alcantara;
-          
-          Luiz Felipe Barbosa Pereira
+Planos de Treino Personalizados: Crie e atribua treinos customizados, adaptados às necessidades e metas de cada aluno.
 
-Estamos desenvolvendo um aplicativo abrangente voltado para personal trainers, com o objetivo de aprimorar a conexão entre treinadores e seus clientes. O aplicativo oferece funcionalidades essenciais, como cadastro de alunos, definição de metas, elaboração de treinos personalizados, feedback dos alunos e relatórios semanais.Utilizamos Python com a biblioteca Tkinter para criar uma interface gráfica intuitiva, facilitando a interação do usuário. Para garantir escalabilidade e segurança, integramos o aplicativo com serviços do Firebase, como armazenamento de dados, envio de e-mails, autenticação e monitoramento.
-Além disso, colaboramos no desenvolvimento do Back-End, focando na criação de um banco de dados robusto que assegura a integridade e segurança de dados críticos, como CPF, e-mails e senhas. Nosso objetivo é proporcionar uma plataforma eficiente e segura que facilite o acompanhamento personalizado de treinos, melhorando a experiência tanto para treinadores quanto para alunos.
+Acompanhamento e Metas: Defina e monitore o progresso dos alunos em tempo real.
+
+Comunicação Direta: Receba e envie feedbacks, promovendo uma interação constante e eficiente.
+
+Relatórios de Desempenho: Acesse relatórios semanais que ajudam a analisar a evolução e a tomar decisões estratégicas.
+
+Tecnologia e Arquitetura
+O Front-End foi construído em Python utilizando a biblioteca Tkinter, garantindo uma interface gráfica intuitiva e de fácil navegação. Para o Back-End, optamos por uma arquitetura robusta e escalável, integrando o aplicativo aos serviços do Google Firebase.
+
+Essa integração permite funcionalidades críticas como:
+
+Autenticação de Usuários: Login seguro e gerenciamento de permissões.
+
+Armazenamento de Dados: Banco de dados confiável para armazenar informações de alunos e treinos.
+
+Comunicação Automatizada: Envio de e-mails para feedback ou notificações.
+
+Segurança de Dados: Garantimos a integridade e proteção de informações sensíveis, como CPF, e-mails e senhas.
+
+Nosso principal objetivo é oferecer uma plataforma segura e eficiente que simplifique o trabalho dos personal trainers, permitindo que eles foquem no que realmente importa: a qualidade do acompanhamento e o sucesso de seus alunos.
+
+Integrantes:
+
+Pedro Henrique Ipiranga Araújo
+
+Luiz Carlos Moraes dos Santos
+
+Felipe de Resende Ferreira
+
+Luiz Kauan Rosa de Alcantara
+
+Luiz Felipe Barbosa Pereira
+
+
+
+
+
+
+
