@@ -1,4 +1,4 @@
-🏋️‍♂️ Personal Manager: Conectando Treinadores e Clientes
+Conectando Treinadores e Clientes: Desenvolvimento de Aplicativo para  Facilitar o Acompanhamento Personalizado
 - Aplicativo de gestão e acompanhamento personalizado integrado ao Google Firebase.
 
 📌 Sobre o Projeto
