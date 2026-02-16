@@ -1,62 +1,64 @@
- Projeto-De-Exten-o-2024.1
+🏋️‍♂️ Personal Manager: Conectando Treinadores e Clientes
+- Aplicativo de gestão e acompanhamento personalizado integrado ao Google Firebase.
 
-Faculdade Ideal - Faci Wyden BELÉM-PARÁ
+📌 Sobre o Projeto
+- Desenvolvido para a disciplina de Aplic. de Cloud, IoT e Indústria 4.0 em Python na Faculdade Ideal (Faci Wyden), este projeto de extensão foca na modernização da rotina de Personal Trainers.
 
-Curso - Ciencia Computação 2024.1;
+- A plataforma resolve o desafio da gestão fragmentada, centralizando o acompanhamento de metas, treinos e comunicação direta em um ambiente seguro e escalável na nuvem.
 
-Coordenador - Iranildo Ramos;
+🚀 Funcionalidades Principais
+- Gestão Centralizada: Cadastro organizado de alunos com fichas técnicas individuais.
 
-Materia- Aplic. de Cloud, Iot e Indústria 4.0 em Python;
+- Prescrição de Treinos: Criação e atribuição de planos customizados conforme as metas do aluno.
 
-Professor - Anderson Goes ;
+- Monitoramento em Tempo Real: Acompanhamento de progresso e definição de metas semanais.
 
-Data - 25/06/2024
+- Feedback Loop: Sistema de comunicação direta entre treinador e aluno para ajustes rápidos.
 
-Tema  - Conectando Treinadores e Clientes: Desenvolvimento de Aplicativo para Facilitar o Acompanhamento Personalizado
+- Business Intelligence: Relatórios de desempenho semanais para suporte à decisão estratégica.
 
-Aplicativo de Gestão para Personal Trainers
-Desenvolvemos um aplicativo abrangente para personal trainers, com o objetivo de otimizar a gestão de clientes e fortalecer a relação entre treinadores e alunos. Nossa plataforma oferece um conjunto de ferramentas essenciais para a rotina do profissional:
+🏗️ Arquitetura e Tecnologia
+- O projeto utiliza uma estrutura híbrida entre processamento local e armazenamento em nuvem:
 
-Cadastro e Gestão de Alunos: Gerencie a ficha de cada cliente de forma organizada.
+- Front-End: Interface desktop intuitiva desenvolvida em Tkinter.
 
-Planos de Treino Personalizados: Crie e atribua treinos customizados, adaptados às necessidades e metas de cada aluno.
+- Back-End (BaaS): Integração com Google Firebase para:
 
-Acompanhamento e Metas: Defina e monitore o progresso dos alunos em tempo real.
+- Authentication: Login seguro e controle de acesso.
 
-Comunicação Direta: Receba e envie feedbacks, promovendo uma interação constante e eficiente.
+- Realtime Database: Armazenamento persistente de treinos e dados de alunos.
 
-Relatórios de Desempenho: Acesse relatórios semanais que ajudam a analisar a evolução e a tomar decisões estratégicas.
+- Cloud Messaging: Base para notificações e automação de e-mails.
 
-Tecnologia e Arquitetura
-O Front-End foi construído em Python utilizando a biblioteca Tkinter, garantindo uma interface gráfica intuitiva e de fácil navegação. Para o Back-End, optamos por uma arquitetura robusta e escalável, integrando o aplicativo aos serviços do Google Firebase.
+- Segurança: Implementação de protocolos para proteção de dados sensíveis (CPF, e-mails e senhas).
 
-Essa integração permite funcionalidades críticas como:
+🛠️ Tecnologias Utilizadas
+- Linguagem: Python
 
-Autenticação de Usuários: Login seguro e gerenciamento de permissões.
+- Cloud Provider: Google Firebase
 
-Armazenamento de Dados: Banco de dados confiável para armazenar informações de alunos e treinos.
+- Interface: Tkinter
 
-Comunicação Automatizada: Envio de e-mails para feedback ou notificações.
+- Comunicação: SMTPLIB (Notificações por e-mail)
 
-Segurança de Dados: Garantimos a integridade e proteção de informações sensíveis, como CPF, e-mails e senhas.
+📁 Estrutura do Repositório
+/src: Código-fonte da aplicação.
 
-Nosso principal objetivo é oferecer uma plataforma segura e eficiente que simplifique o trabalho dos personal trainers, permitindo que eles foquem no que realmente importa: a qualidade do acompanhamento e o sucesso de seus alunos.
+/config: Arquivos de configuração do Firebase (JSON/SDK).
 
-Integrantes:
+/assets: Capturas de tela da interface e logotipos.
 
-Pedro Henrique Ipiranga Araújo
+👥 Equipe (Ciência da Computação 2024.1)
+- Pedro Henrique Ipiranga Araújo
 
-Luiz Carlos Moraes dos Santos
+- Luiz Carlos Moraes dos Santos
 
-Felipe de Resende Ferreira
+- Felipe de Resende Ferreira
 
-Luiz Kauan Rosa de Alcantara
+- Luiz Kauan Rosa de Alcantara
 
-Luiz Felipe Barbosa Pereira
+- Luiz Felipe Barbosa Pereira
 
+Coordenador: Iranildo Ramos
 
-
-
-
-
-
+Professor: Anderson Goes
